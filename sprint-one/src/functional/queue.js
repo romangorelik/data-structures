@@ -24,12 +24,6 @@ var Queue = function() {
     }
   };
 
-  if (counter > 0) {
-    var temp = storage[--counter];
-    delete storage[counter];
-    return temp;
-  }
-
   someInstance.size = function() {
     return counter;
   };
