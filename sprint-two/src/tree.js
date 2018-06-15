@@ -23,7 +23,7 @@ treeMethods.contains = function(target) {
 
   return _.some(this.children, function(child) {
     return child.contains(target);
-  }, false);
+  });
 };
 
 
